@@ -1,3 +1,36 @@
+import cabana1Dec1 from '../assets/images/cabana1/cabana1-dec1.png'
+import cabana1Dec2 from '../assets/images/cabana1/cabana1-dec2.png'
+import cabana1Dec3 from '../assets/images/cabana1/cabana1-dec3.png'
+import cabana1Dec4 from '../assets/images/cabana1/cabana1-dec4.png'
+import cabana1ExteriorNoche from '../assets/images/cabana1/cabana1-exterior-noche.png'
+import cabana1Exterior1 from '../assets/images/cabana1/cabana1-exterior1.png'
+import cabana1Exterior2 from '../assets/images/cabana1/cabana1-exterior2.png'
+import cabana1Interior1 from '../assets/images/cabana1/cabana1-interior1.png'
+import cabana1Interior2 from '../assets/images/cabana1/cabana1-interior2.png'
+import cabana1Interior3 from '../assets/images/cabana1/cabana1-interior3.png'
+import cabana1Interior4 from '../assets/images/cabana1/cabana1-interior4.png'
+import cabana1Interior5 from '../assets/images/cabana1/cabana1-interior5.png'
+import cabana1Interior6 from '../assets/images/cabana1/cabana1-interior6.png'
+import cabana1Interior7 from '../assets/images/cabana1/cabana1-interior7.png'
+import cabana1Render from '../assets/images/cabana1/cabana1-render.png'
+import cabana2Dec1 from '../assets/images/cabana2/cabana2-dec1.png'
+import cabana2Dec2 from '../assets/images/cabana2/cabana2-dec2.png'
+import cabana2Dec3Noche from '../assets/images/cabana2/cabana2-dec3-noche.png'
+import cabana2ExteriorDec from '../assets/images/cabana2/cabana2-exterior-dec.png'
+import cabana2Exterior1 from '../assets/images/cabana2/cabana2-exterior1.png'
+import cabana2Exterior2 from '../assets/images/cabana2/cabana2-exterior2.png'
+import cabana2Exterior3 from '../assets/images/cabana2/cabana2-exterior3.png'
+import cabana2Exterior4 from '../assets/images/cabana2/cabana2-exterior4.png'
+import cabana2Exterior5Noche from '../assets/images/cabana2/cabana2-exterior5-noche.png'
+import cabana2Interior1 from '../assets/images/cabana2/cabana2-interior1.png'
+import cabana2Interior2 from '../assets/images/cabana2/cabana2-interior2.png'
+import cabana2Interior3 from '../assets/images/cabana2/cabana2-interior3.png'
+import cabana2Interior4 from '../assets/images/cabana2/cabana2-interior4.png'
+import cabana2Interior5 from '../assets/images/cabana2/cabana2-interior5.png'
+import cabana2Interior6 from '../assets/images/cabana2/cabana2-interior6.png'
+import cabana2Interior7 from '../assets/images/cabana2/cabana2-interior7.png'
+import cabana2Vista from '../assets/images/cabana2/cabana2-vista.png'
+
 const whatsappMessage = 'Hola, quería consultar disponibilidad en Lomas de Intiyaco.'
 
 const canonicalUrl = 'https://www.lomasdeintiyaco.com.ar/'
@@ -60,7 +93,7 @@ export const siteData = {
     heroSecondary: 'Ver cabañas',
     cabinsEyebrow: 'Nuestras cabañas',
     cabinsTitle: 'Cabañas equipadas para parejas, familias y grupos',
-    cabinButton: 'Consultar esta cabaña',
+    cabinButton: 'Ver galería',
     servicesEyebrow: 'Servicios',
     servicesTitle: 'Comodidades para una estadía simple y tranquila',
     galleryEyebrow: 'Galería',
@@ -109,22 +142,164 @@ export const siteData = {
   },
   cabins: [
     {
+      id: 'cabana-1',
       title: 'Cabaña para 4/5 personas',
-      image: '/images/cabana-1.jpg',
-      alt: 'Cabaña familiar equipada en Intiyaco para hasta cinco personas',
+      image: cabana1Exterior1,
+      alt: 'Exterior de la cabaña familiar en Intiyaco, Córdoba',
       capacity: 'Hasta 5 personas',
+      galleryAnchor: '#galeria-cabana-1',
+      galleryTitle: 'Cabaña 1 - 4/5 personas',
+      gallerySubtitle:
+        'Imágenes de la cabaña familiar para hasta cinco personas, sus interiores, exterior y detalles.',
       description:
         'Ideal para familias o grupos chicos que buscan comodidad, privacidad y contacto con la naturaleza.',
       amenities: ['Dormitorios confortables', 'Cocina equipada', 'Parrilla individual', 'Espacio exterior'],
+      gallery: [
+        {
+          src: cabana1Exterior1,
+          alt: 'Exterior de la cabaña familiar en Intiyaco, Córdoba',
+        },
+        {
+          src: cabana1Exterior2,
+          alt: 'Galería exterior de la cabaña familiar en las sierras de Córdoba',
+        },
+        {
+          src: cabana1ExteriorNoche,
+          alt: 'Exterior nocturno de la cabaña familiar en Intiyaco',
+        },
+        {
+          src: cabana1Interior1,
+          alt: 'Interior de la cabaña para cinco personas',
+        },
+        {
+          src: cabana1Interior2,
+          alt: 'Living comedor de la cabaña familiar',
+        },
+        {
+          src: cabana1Interior3,
+          alt: 'Dormitorio de la cabaña familiar',
+        },
+        {
+          src: cabana1Interior4,
+          alt: 'Cocina equipada de la cabaña para cinco personas',
+        },
+        {
+          src: cabana1Interior5,
+          alt: 'Ambiente interior de la cabaña familiar en Intiyaco',
+        },
+        {
+          src: cabana1Interior6,
+          alt: 'Baño de la cabaña familiar',
+        },
+        {
+          src: cabana1Interior7,
+          alt: 'Dormitorio secundario de la cabaña para cinco personas',
+        },
+        {
+          src: cabana1Dec1,
+          alt: 'Detalle decorativo de la cabaña familiar',
+        },
+        {
+          src: cabana1Dec2,
+          alt: 'Detalle decorativo interior de la cabaña',
+        },
+        {
+          src: cabana1Dec3,
+          alt: 'Decoración rústica de la cabaña en Intiyaco',
+        },
+        {
+          src: cabana1Dec4,
+          alt: 'Detalle decorativo de madera en la cabaña',
+        },
+        {
+          src: cabana1Render,
+          alt: 'Render de distribución de la cabaña familiar',
+        },
+      ],
     },
     {
+      id: 'cabana-2',
       title: 'Cabaña para 2/3 personas',
-      image: '/images/cabana-2.jpg',
-      alt: 'Cabaña para pareja en Intiyaco con vista al entorno natural',
+      image: cabana2Exterior2,
+      alt: 'Exterior de la cabaña para dos o tres personas en Intiyaco',
       capacity: 'Hasta 3 personas',
+      galleryAnchor: '#galeria-cabana-2',
+      galleryTitle: 'Cabaña 2 - 2/3 personas',
+      gallerySubtitle:
+        'Imágenes de la cabaña para dos o tres personas, sus interiores, exterior, vista y detalles.',
       description:
         'Una opción cálida para parejas o escapadas tranquilas, con todo lo necesario para descansar.',
       amenities: ['Ambiente acogedor', 'Cocina equipada', 'Calefacción', 'Vista al entorno natural'],
+      gallery: [
+        {
+          src: cabana2Dec1,
+          alt: 'Detalle decorativo de la cabaña para parejas',
+        },
+        {
+          src: cabana2Dec2,
+          alt: 'Detalle decorativo interior de la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Dec3Noche,
+          alt: 'Detalle decorativo nocturno de la cabaña en las sierras',
+        },
+        {
+          src: cabana2ExteriorDec,
+          alt: 'Exterior con detalles decorativos de la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Exterior1,
+          alt: 'Exterior de la cabaña para dos o tres personas en Intiyaco',
+        },
+        {
+          src: cabana2Exterior2,
+          alt: 'Galería exterior de la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Exterior3,
+          alt: 'Ingreso exterior de la cabaña para parejas en Intiyaco',
+        },
+        {
+          src: cabana2Exterior4,
+          alt: 'Exterior de la cabaña para dos o tres personas rodeada de naturaleza',
+        },
+        {
+          src: cabana2Exterior5Noche,
+          alt: 'Exterior nocturno de la cabaña en las sierras',
+        },
+        {
+          src: cabana2Interior1,
+          alt: 'Interior de la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Interior2,
+          alt: 'Ambiente interior de la cabaña para parejas',
+        },
+        {
+          src: cabana2Interior3,
+          alt: 'Dormitorio de la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Interior4,
+          alt: 'Cocina equipada de la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Interior5,
+          alt: 'Interior cálido de la cabaña para parejas en Intiyaco',
+        },
+        {
+          src: cabana2Interior6,
+          alt: 'Baño de la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Interior7,
+          alt: 'Detalle interior de la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Vista,
+          alt: 'Vista desde la cabaña en Intiyaco',
+        },
+      ],
     },
   ],
   services: [
@@ -136,32 +311,6 @@ export const siteData = {
     { title: 'Naturaleza y tranquilidad', note: 'Un entorno serrano para descansar sin apuro.' },
     { title: 'WiFi', note: 'Confirmar disponibilidad según la cabaña y la fecha.' },
     { title: 'Mascotas', note: 'Consultar política antes de reservar.' },
-  ],
-  gallery: [
-    {
-      src: '/images/galeria-1.jpg',
-      alt: 'Vista exterior de cabañas en Intiyaco entre árboles',
-    },
-    {
-      src: '/images/galeria-2.jpg',
-      alt: 'Galería de cabaña serrana en Lomas de Intiyaco',
-    },
-    {
-      src: '/images/galeria-3.jpg',
-      alt: 'Interior equipado de una cabaña en Intiyaco, Córdoba',
-    },
-    {
-      src: '/images/galeria-4.jpg',
-      alt: 'Parrilla y espacio exterior de alojamiento en Intiyaco',
-    },
-    {
-      src: '/images/galeria-5.jpg',
-      alt: 'Paisaje natural cerca de las cabañas en Intiyaco',
-    },
-    {
-      src: '/images/galeria-6.jpg',
-      alt: 'Entorno serrano para descansar cerca de Villa General Belgrano',
-    },
   ],
   faq: [
     {

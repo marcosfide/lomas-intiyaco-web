@@ -10,7 +10,12 @@ export function Cabins({ data }) {
         </div>
         <div className="cabins-grid">
           {data.cabins.map((cabin) => (
-            <article className="cabin-card" key={cabin.title}>
+            <a
+              className="cabin-card cabin-card-link"
+              href={cabin.galleryAnchor}
+              key={cabin.id}
+              aria-label={`Ver galería de ${cabin.title}`}
+            >
               <ImageWithFallback src={cabin.image} alt={cabin.alt} className="cabin-image" />
               <div className="cabin-body">
                 <p className="capacity">{cabin.capacity}</p>
@@ -21,11 +26,11 @@ export function Cabins({ data }) {
                     <li key={amenity}>{amenity}</li>
                   ))}
                 </ul>
-                <a className="btn btn-primary" href={data.whatsapp.url} target="_blank" rel="noreferrer">
+                <span className="btn btn-primary cabin-card-cta" aria-hidden="true">
                   {data.ui.cabinButton}
-                </a>
+                </span>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </div>
