@@ -1,6 +1,10 @@
+import { ImageWithFallback } from './ImageWithFallback'
+
 export function Location({ data }) {
   return (
     <section className="section location-section" id="ubicacion" aria-labelledby="location-title">
+      <ImageWithFallback src={data.location.image} alt={data.location.imageAlt} className="location-media" />
+      <div className="location-overlay" />
       <div className="section-shell location-grid">
         <div>
           <p className="eyebrow">{data.ui.locationEyebrow}</p>

@@ -1,3 +1,4 @@
+import panoramicView from '../assets/images/image.png'
 import cabana1Dec1 from '../assets/images/cabana1/cabana1-dec1.png'
 import cabana1Dec2 from '../assets/images/cabana1/cabana1-dec2.png'
 import cabana1Dec3 from '../assets/images/cabana1/cabana1-dec3.png'
@@ -34,7 +35,7 @@ import cabana2Vista from '../assets/images/cabana2/cabana2-vista.png'
 const whatsappMessage = 'Hola, quería consultar disponibilidad en Lomas de Intiyaco.'
 
 const canonicalUrl = 'https://www.lomasdeintiyaco.com.ar/'
-const heroImage = '/images/hero.jpg'
+const heroImage = cabana1Exterior1
 
 export const siteData = {
   name: 'Lomas de Intiyaco',
@@ -80,6 +81,8 @@ export const siteData = {
       'Cabañas cerca de Villa General Belgrano',
       'Alojamiento en Intiyaco, Córdoba, con entorno serrano',
     ],
+    image: cabana2Exterior4,
+    imageAlt: 'Cabañas entre pinos en las sierras de Intiyaco, Córdoba',
   },
   links: {
     googleMaps:
@@ -125,6 +128,8 @@ export const siteData = {
     title: 'Un lugar pensado para bajar el ritmo',
     text:
       'En Lomas de Intiyaco te esperan cabañas en Intiyaco rodeadas de bosque, aire puro y privacidad para disfrutar unos días de descanso en las sierras cordobesas.',
+    image: cabana1Interior2,
+    imageAlt: 'Vista de las sierras desde el ventanal de una cabaña en Intiyaco, con mate y termo',
     benefits: [
       {
         title: 'Tranquilidad real',
@@ -348,6 +353,16 @@ export const siteData = {
     title: '¿Querés descansar en las sierras?',
     text:
       'Escribinos por WhatsApp y contanos las fechas de tu viaje. Te ayudamos a encontrar la cabaña adecuada para tu escapada a Intiyaco.',
+    image: cabana1ExteriorNoche,
+    imageAlt: 'Cabaña iluminada de noche entre los pinos en Intiyaco, Córdoba',
+  },
+  scenic: {
+    eyebrow: 'En las sierras de Intiyaco',
+    title: 'Bosque, silencio y horizonte de montañas',
+    text:
+      'Un rincón natural en Intiyaco, Córdoba, pensado para desconectar y disfrutar el paisaje serrano en cada estación del año.',
+    image: panoramicView,
+    imageAlt: 'Vista panorámica de las cabañas entre pinos con las sierras de fondo en Intiyaco, Córdoba',
   },
   images: {
     hero: heroImage,

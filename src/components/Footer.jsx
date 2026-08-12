@@ -1,3 +1,5 @@
+import logoWhite from '../assets/images/logo-intiyaco-white.png'
+
 function WhatsAppIcon() {
   return (
     <svg className="footer-contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -36,7 +38,7 @@ export function Footer({ data }) {
     <footer className="site-footer">
       <div className="section-shell footer-grid">
         <div>
-          <p className="footer-brand">{data.name}</p>
+          <img className="footer-logo" src={logoWhite} alt={data.name} />
           <p>{data.location.text}</p>
         </div>
         <div className="footer-links">
