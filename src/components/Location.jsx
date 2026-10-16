@@ -11,7 +11,10 @@ export function Location({ data }) {
           <h2 id="location-title">{data.location.text}</h2>
           <ul className="distance-list">
             {data.location.distances.map((distance) => (
-              <li key={distance}>{distance}</li>
+              <li key={distance.name}>
+                <span className="distance-name">{distance.name}</span>
+                <span className="distance-detail">{distance.detail}</span>
+              </li>
             ))}
           </ul>
           <a className="btn btn-primary" href={data.location.googleMapsUrl} target="_blank" rel="noreferrer">

@@ -1,36 +1,36 @@
-import panoramicView from '../assets/images/image.png'
-import cabana1Dec1 from '../assets/images/cabana1/cabana1-dec1.png'
-import cabana1Dec2 from '../assets/images/cabana1/cabana1-dec2.png'
-import cabana1Dec3 from '../assets/images/cabana1/cabana1-dec3.png'
-import cabana1Dec4 from '../assets/images/cabana1/cabana1-dec4.png'
-import cabana1ExteriorNoche from '../assets/images/cabana1/cabana1-exterior-noche.png'
-import cabana1Exterior1 from '../assets/images/cabana1/cabana1-exterior1.png'
-import cabana1Exterior2 from '../assets/images/cabana1/cabana1-exterior2.png'
-import cabana1Interior1 from '../assets/images/cabana1/cabana1-interior1.png'
-import cabana1Interior2 from '../assets/images/cabana1/cabana1-interior2.png'
-import cabana1Interior3 from '../assets/images/cabana1/cabana1-interior3.png'
-import cabana1Interior4 from '../assets/images/cabana1/cabana1-interior4.png'
-import cabana1Interior5 from '../assets/images/cabana1/cabana1-interior5.png'
-import cabana1Interior6 from '../assets/images/cabana1/cabana1-interior6.png'
-import cabana1Interior7 from '../assets/images/cabana1/cabana1-interior7.png'
-import cabana1Render from '../assets/images/cabana1/cabana1-render.png'
-import cabana2Dec1 from '../assets/images/cabana2/cabana2-dec1.png'
-import cabana2Dec2 from '../assets/images/cabana2/cabana2-dec2.png'
-import cabana2Dec3Noche from '../assets/images/cabana2/cabana2-dec3-noche.png'
-import cabana2ExteriorDec from '../assets/images/cabana2/cabana2-exterior-dec.png'
-import cabana2Exterior1 from '../assets/images/cabana2/cabana2-exterior1.png'
-import cabana2Exterior2 from '../assets/images/cabana2/cabana2-exterior2.png'
-import cabana2Exterior3 from '../assets/images/cabana2/cabana2-exterior3.png'
-import cabana2Exterior4 from '../assets/images/cabana2/cabana2-exterior4.png'
-import cabana2Exterior5Noche from '../assets/images/cabana2/cabana2-exterior5-noche.png'
-import cabana2Interior1 from '../assets/images/cabana2/cabana2-interior1.png'
-import cabana2Interior2 from '../assets/images/cabana2/cabana2-interior2.png'
-import cabana2Interior3 from '../assets/images/cabana2/cabana2-interior3.png'
-import cabana2Interior4 from '../assets/images/cabana2/cabana2-interior4.png'
-import cabana2Interior5 from '../assets/images/cabana2/cabana2-interior5.png'
-import cabana2Interior6 from '../assets/images/cabana2/cabana2-interior6.png'
-import cabana2Interior7 from '../assets/images/cabana2/cabana2-interior7.png'
-import cabana2Vista from '../assets/images/cabana2/cabana2-vista.png'
+import panoramicView from '../assets/images/image.webp'
+import cabana1Dec1 from '../assets/images/cabana1/cabana1-dec1.webp'
+import cabana1Dec2 from '../assets/images/cabana1/cabana1-dec2.webp'
+import cabana1Dec3 from '../assets/images/cabana1/cabana1-dec3.webp'
+import cabana1Dec4 from '../assets/images/cabana1/cabana1-dec4.webp'
+import cabana1ExteriorNoche from '../assets/images/cabana1/cabana1-exterior-noche.webp'
+import cabana1Exterior1 from '../assets/images/cabana1/cabana1-exterior1.webp'
+import cabana1Exterior2 from '../assets/images/cabana1/cabana1-exterior2.webp'
+import cabana1Interior1 from '../assets/images/cabana1/cabana1-interior1.webp'
+import cabana1Interior2 from '../assets/images/cabana1/cabana1-interior2.webp'
+import cabana1Interior3 from '../assets/images/cabana1/cabana1-interior3.webp'
+import cabana1Interior4 from '../assets/images/cabana1/cabana1-interior4.webp'
+import cabana1Interior5 from '../assets/images/cabana1/cabana1-interior5.webp'
+import cabana1Interior6 from '../assets/images/cabana1/cabana1-interior6.webp'
+import cabana1Interior7 from '../assets/images/cabana1/cabana1-interior7.webp'
+import cabana1Render from '../assets/images/cabana1/cabana1-render.webp'
+import cabana2Dec1 from '../assets/images/cabana2/cabana2-dec1.webp'
+import cabana2Dec2 from '../assets/images/cabana2/cabana2-dec2.webp'
+import cabana2Dec3Noche from '../assets/images/cabana2/cabana2-dec3-noche.webp'
+import cabana2ExteriorDec from '../assets/images/cabana2/cabana2-exterior-dec.webp'
+import cabana2Exterior1 from '../assets/images/cabana2/cabana2-exterior1.webp'
+import cabana2Exterior2 from '../assets/images/cabana2/cabana2-exterior2.webp'
+import cabana2Exterior3 from '../assets/images/cabana2/cabana2-exterior3.webp'
+import cabana2Exterior4 from '../assets/images/cabana2/cabana2-exterior4.webp'
+import cabana2Exterior5Noche from '../assets/images/cabana2/cabana2-exterior5-noche.webp'
+import cabana2Interior1 from '../assets/images/cabana2/cabana2-interior1.webp'
+import cabana2Interior2 from '../assets/images/cabana2/cabana2-interior2.webp'
+import cabana2Interior3 from '../assets/images/cabana2/cabana2-interior3.webp'
+import cabana2Interior4 from '../assets/images/cabana2/cabana2-interior4.webp'
+import cabana2Interior5 from '../assets/images/cabana2/cabana2-interior5.webp'
+import cabana2Interior6 from '../assets/images/cabana2/cabana2-interior6.webp'
+import cabana2Interior7 from '../assets/images/cabana2/cabana2-interior7.webp'
+import cabana2Vista from '../assets/images/cabana2/cabana2-vista.webp'
 
 const whatsappMessage = 'Hola, quería consultar disponibilidad en Lomas de Intiyaco.'
 
@@ -69,7 +69,7 @@ export const siteData = {
     locality: 'Intiyaco',
     region: 'Córdoba',
     country: 'AR',
-    address: 'Intiyaco, Calamuchita, Córdoba, Argentina',
+    address: 'Los Zorzales 65, RP 109, Intiyaco, Calamuchita, Córdoba, Argentina',
     latitude: -31.9576957,
     longitude: -64.7171616,
     googleMapsUrl:
@@ -77,9 +77,9 @@ export const siteData = {
     mapEmbedUrl:
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.2378805193207!2d-64.72208025577392!3d-31.95444265114967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2c9f334762587%3A0x499588d26debcf01!2sLomas%20de%20Intiyaco%20-%20Caba%C3%B1as!5e0!3m2!1ses-419!2sar!4v1782772523997!5m2!1ses-419!2sar',
     distances: [
-      'Cabañas cerca de La Cumbrecita',
-      'Cabañas cerca de Villa General Belgrano',
-      'Alojamiento en Intiyaco, Córdoba, con entorno serrano',
+      { name: 'La Cumbrecita · 12,6 km', detail: '19 min en auto por la RP 109. El pueblo peatonal de las sierras.' },
+      { name: 'Villa General Belgrano · 26,6 km', detail: '27 min en auto. Cervecerías, gastronomía y las fiestas del valle.' },
+      { name: 'Córdoba capital · 107 km', detail: '1 h 45 min en auto por la RP 5.' },
     ],
     image: cabana2Exterior4,
     imageAlt: 'Cabañas entre pinos en las sierras de Intiyaco, Córdoba',
@@ -101,6 +101,8 @@ export const siteData = {
     servicesTitle: 'Comodidades para una estadía simple y tranquila',
     galleryEyebrow: 'Galería',
     galleryTitle: 'Imágenes del entorno y las cabañas',
+    galleryShowAll: 'Ver todas las fotos',
+    galleryShowLess: 'Ver menos fotos',
     locationEyebrow: 'Ubicación',
     locationButton: 'Cómo llegar',
     mapPlaceholder: 'Espacio preparado para Google Maps',
@@ -109,6 +111,10 @@ export const siteData = {
     finalButton: 'Consultar por WhatsApp',
     whatsappAria: 'Consultar disponibilidad por WhatsApp',
     copyright: 'Todos los derechos reservados.',
+    footerNavTitle: 'Navegación',
+    footerContactTitle: 'Contacto',
+    checkinLabel: 'Check-in',
+    checkoutLabel: 'Check-out',
   },
   nav: [
     { label: 'Inicio', href: '#inicio' },
@@ -162,63 +168,63 @@ export const siteData = {
       gallery: [
         {
           src: cabana1Exterior1,
-          alt: 'Exterior de la cabaña familiar en Intiyaco, Córdoba',
-        },
-        {
-          src: cabana1Exterior2,
-          alt: 'Galería exterior de la cabaña familiar en las sierras de Córdoba',
-        },
-        {
-          src: cabana1ExteriorNoche,
-          alt: 'Exterior nocturno de la cabaña familiar en Intiyaco',
-        },
-        {
-          src: cabana1Interior1,
-          alt: 'Interior de la cabaña para cinco personas',
-        },
-        {
-          src: cabana1Interior2,
-          alt: 'Living comedor de la cabaña familiar',
+          alt: 'Cabaña familiar sobre pilotes entre pinos y pastizales serranos',
         },
         {
           src: cabana1Interior3,
-          alt: 'Dormitorio de la cabaña familiar',
-        },
-        {
-          src: cabana1Interior4,
-          alt: 'Cocina equipada de la cabaña para cinco personas',
+          alt: 'Living comedor de la cabaña familiar con mesa y sillón',
         },
         {
           src: cabana1Interior5,
-          alt: 'Ambiente interior de la cabaña familiar en Intiyaco',
-        },
-        {
-          src: cabana1Interior6,
-          alt: 'Baño de la cabaña familiar',
-        },
-        {
-          src: cabana1Interior7,
-          alt: 'Dormitorio secundario de la cabaña para cinco personas',
-        },
-        {
-          src: cabana1Dec1,
-          alt: 'Detalle decorativo de la cabaña familiar',
-        },
-        {
-          src: cabana1Dec2,
-          alt: 'Detalle decorativo interior de la cabaña',
-        },
-        {
-          src: cabana1Dec3,
-          alt: 'Decoración rústica de la cabaña en Intiyaco',
+          alt: 'Dormitorio con cama matrimonial en la cabaña familiar',
         },
         {
           src: cabana1Dec4,
-          alt: 'Detalle decorativo de madera en la cabaña',
+          alt: 'Asado en la parrilla de la galería de la cabaña familiar',
+        },
+        {
+          src: cabana1Interior2,
+          alt: 'Mate y vista a las sierras desde el ventanal de la cabaña familiar',
+        },
+        {
+          src: cabana1ExteriorNoche,
+          alt: 'Cabaña familiar iluminada de noche entre los pinos',
+        },
+        {
+          src: cabana1Exterior2,
+          alt: 'Galería elevada de la cabaña familiar rodeada de pinos',
+        },
+        {
+          src: cabana1Dec1,
+          alt: 'Galería de madera iluminada al atardecer en la cabaña familiar',
+        },
+        {
+          src: cabana1Dec2,
+          alt: 'Descanso en los sillones de la galería bajo los pinos',
+        },
+        {
+          src: cabana1Dec3,
+          alt: 'Sendero de ingreso y galería de la cabaña familiar al anochecer',
+        },
+        {
+          src: cabana1Interior1,
+          alt: 'Dormitorio con lámpara de mimbre en la cabaña familiar',
+        },
+        {
+          src: cabana1Interior4,
+          alt: 'Dormitorio con camas individuales en la cabaña familiar',
+        },
+        {
+          src: cabana1Interior6,
+          alt: 'Comedor con vista al bosque en la cabaña familiar',
+        },
+        {
+          src: cabana1Interior7,
+          alt: 'Mesa del comedor con flores y ventanales en la cabaña familiar',
         },
         {
           src: cabana1Render,
-          alt: 'Render de distribución de la cabaña familiar',
+          alt: 'Plano de distribución de la cabaña familiar y su entorno',
         },
       ],
     },
@@ -237,85 +243,90 @@ export const siteData = {
       amenities: ['Ambiente acogedor', 'Cocina equipada', 'Calefacción', 'Vista al entorno natural'],
       gallery: [
         {
-          src: cabana2Dec1,
-          alt: 'Detalle decorativo de la cabaña para parejas',
-        },
-        {
-          src: cabana2Dec2,
-          alt: 'Detalle decorativo interior de la cabaña para dos o tres personas',
-        },
-        {
-          src: cabana2Dec3Noche,
-          alt: 'Detalle decorativo nocturno de la cabaña en las sierras',
-        },
-        {
-          src: cabana2ExteriorDec,
-          alt: 'Exterior con detalles decorativos de la cabaña para dos o tres personas',
-        },
-        {
-          src: cabana2Exterior1,
-          alt: 'Exterior de la cabaña para dos o tres personas en Intiyaco',
-        },
-        {
           src: cabana2Exterior2,
-          alt: 'Galería exterior de la cabaña para dos o tres personas',
-        },
-        {
-          src: cabana2Exterior3,
-          alt: 'Ingreso exterior de la cabaña para parejas en Intiyaco',
-        },
-        {
-          src: cabana2Exterior4,
-          alt: 'Exterior de la cabaña para dos o tres personas rodeada de naturaleza',
-        },
-        {
-          src: cabana2Exterior5Noche,
-          alt: 'Exterior nocturno de la cabaña en las sierras',
-        },
-        {
-          src: cabana2Interior1,
-          alt: 'Interior de la cabaña para dos o tres personas',
+          alt: 'Cabaña de troncos para parejas elevada entre pinos',
         },
         {
           src: cabana2Interior2,
-          alt: 'Ambiente interior de la cabaña para parejas',
-        },
-        {
-          src: cabana2Interior3,
-          alt: 'Dormitorio de la cabaña para dos o tres personas',
-        },
-        {
-          src: cabana2Interior4,
-          alt: 'Cocina equipada de la cabaña para dos o tres personas',
-        },
-        {
-          src: cabana2Interior5,
-          alt: 'Interior cálido de la cabaña para parejas en Intiyaco',
+          alt: 'Living de la cabaña para parejas con ventanales al bosque',
         },
         {
           src: cabana2Interior6,
-          alt: 'Baño de la cabaña para dos o tres personas',
-        },
-        {
-          src: cabana2Interior7,
-          alt: 'Detalle interior de la cabaña para dos o tres personas',
+          alt: 'Dormitorio de la cabaña para dos o tres personas',
         },
         {
           src: cabana2Vista,
-          alt: 'Vista desde la cabaña en Intiyaco',
+          alt: 'Atardecer sobre las sierras visto desde la cabaña',
+        },
+        {
+          src: cabana2Dec1,
+          alt: 'Deck con sillones y vista a las sierras',
+        },
+        {
+          src: cabana2Exterior5Noche,
+          alt: 'Deck de la cabaña iluminado de noche',
+        },
+        {
+          src: cabana2ExteriorDec,
+          alt: 'Galería con mesa y sillas en la cabaña para parejas',
+        },
+        {
+          src: cabana2Exterior1,
+          alt: 'Ingreso a la cabaña para parejas entre los pinos',
+        },
+        {
+          src: cabana2Exterior4,
+          alt: 'Cabaña para parejas rodeada de pinos y monte serrano',
+        },
+        {
+          src: cabana2Exterior3,
+          alt: 'Detalle exterior de troncos de la cabaña para parejas',
+        },
+        {
+          src: cabana2Interior1,
+          alt: 'Living con sillón y puertas vidriadas al bosque',
+        },
+        {
+          src: cabana2Interior3,
+          alt: 'Cocina comedor de la cabaña para parejas',
+        },
+        {
+          src: cabana2Interior4,
+          alt: 'Cocina con mesa en la cabaña para dos o tres personas',
+        },
+        {
+          src: cabana2Interior5,
+          alt: 'Baño con vanitory de madera en la cabaña para parejas',
+        },
+        {
+          src: cabana2Interior7,
+          alt: 'Dormitorio con ventanal en la cabaña para parejas',
+        },
+        {
+          src: cabana2Dec2,
+          alt: 'Perro descansando en el deck de la cabaña',
+        },
+        {
+          src: cabana2Dec3Noche,
+          alt: 'Mesa con mate y facturas en el deck de noche',
         },
       ],
     },
   ],
+  servicesBackground: {
+    image: cabana2Vista,
+    imageAlt: 'Atardecer sobre las sierras visto desde las cabañas en Intiyaco, Córdoba',
+  },
+  galleryPreviewCount: 6,
   services: [
-    { title: 'Cocina equipada', note: 'Para resolver comidas con comodidad durante la estadía.' },
-    { title: 'Parrilla', note: 'Espacio para cocinar y compartir al aire libre.' },
-    { title: 'Calefacción', note: 'Confort para disfrutar Intiyaco también en días frescos.' },
-    { title: 'Ropa blanca', note: 'Consultanos qué incluye cada cabaña al reservar.' },
-    { title: 'Estacionamiento', note: 'Ingreso práctico para quienes llegan en auto.' },
-    { title: 'Naturaleza y tranquilidad', note: 'Un entorno serrano para descansar sin apuro.' },
-    { title: 'WiFi', note: 'Confirmar disponibilidad según la cabaña y la fecha.' },
-    { title: 'Mascotas', note: 'Consultar política antes de reservar.' },
+    { icon: 'kitchen', title: 'Cocina equipada', note: 'Para resolver comidas con comodidad durante la estadía.' },
+    { icon: 'grill', title: 'Parrilla', note: 'Espacio para cocinar y compartir al aire libre.' },
+    { icon: 'heating', title: 'Calefacción', note: 'Confort para disfrutar Intiyaco también en días frescos.' },
+    { icon: 'linen', title: 'Ropa blanca', note: 'Sábanas y toallas incluidas en las dos cabañas.' },
+    { icon: 'parking', title: 'Estacionamiento', note: 'Ingreso práctico para quienes llegan en auto.' },
+    { icon: 'nature', title: 'Naturaleza y tranquilidad', note: 'Un entorno serrano para descansar sin apuro.' },
+    { icon: 'wifi', title: 'WiFi', note: 'Conexión WiFi en las dos cabañas.' },
+    { icon: 'pets', title: 'Mascotas', note: 'Consultanos por WhatsApp antes de reservar.' },
   ],
   faq: [
     {
@@ -331,12 +342,21 @@ export const siteData = {
     {
       question: '¿Están cerca de La Cumbrecita y Villa General Belgrano?',
       answer:
-        'Sí. La ubicación permite organizar paseos hacia La Cumbrecita, Villa General Belgrano y otros puntos del valle de Calamuchita.',
+        'Sí. La Cumbrecita está a 12,6 km (unos 19 minutos en auto) y Villa General Belgrano a 26,6 km (unos 27 minutos), ideales para paseos por el valle de Calamuchita.',
     },
     {
       question: '¿Cuántas personas pueden alojarse?',
       answer:
         'Hay una cabaña para 4/5 personas y otra para 2/3 personas. La capacidad final se confirma al consultar.',
+    },
+    {
+      question: '¿Qué incluye la estadía?',
+      answer:
+        'Las dos cabañas tienen WiFi, ropa blanca (sábanas y toallas) y cocina equipada. En la sección Servicios encontrás el resto de las comodidades.',
+    },
+    {
+      question: '¿Cuáles son los horarios de ingreso y salida?',
+      answer: 'El check-in es a partir de las 15:00 y el check-out hasta las 11:00.',
     },
     {
       question: '¿Aceptan mascotas?',
@@ -366,11 +386,11 @@ export const siteData = {
   },
   images: {
     hero: heroImage,
-    openGraph: heroImage,
+    openGraph: '/og-image.jpg',
   },
   schema: {
     priceRange: '$$',
-    checkinTime: '14:00',
-    checkoutTime: '10:00',
+    checkinTime: '15:00',
+    checkoutTime: '11:00',
   },
 }

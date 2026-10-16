@@ -5,6 +5,8 @@ import { ImageLightbox } from './ImageLightbox'
 
 export function Gallery({ data }) {
   const [lightbox, setLightbox] = useState(null)
+  const [expanded, setExpanded] = useState({})
+  const previewCount = data.galleryPreviewCount
   const activeImages = useMemo(() => {
     if (!lightbox) {
       return []
@@ -59,7 +61,7 @@ export function Gallery({ data }) {
               <p className="gallery-subtitle">{cabin.gallerySubtitle}</p>
             </div>
             <div className="gallery-grid">
-              {cabin.gallery.map((image, index) => (
+              {(expanded[cabin.id] ? cabin.gallery : cabin.gallery.slice(0, previewCount)).map((image, index) => (
                 <button
                   className={`gallery-image-button gallery-item gallery-item-${index + 1}`}
                   type="button"
@@ -75,6 +77,26 @@ export function Gallery({ data }) {
                 </button>
               ))}
             </div>
+            {cabin.gallery.length > previewCount ? (
+              <div className="gallery-more">
+                <button
+                  className="btn btn-outline"
+                  type="button"
+                  aria-expanded={Boolean(expanded[cabin.id])}
+                  onClick={() => {
+                    const isOpen = expanded[cabin.id]
+                    setExpanded((current) => ({ ...current, [cabin.id]: !current[cabin.id] }))
+                    if (isOpen) {
+                      document.getElementById(cabin.galleryAnchor.replace('#', ''))?.scrollIntoView({ behavior: 'smooth' })
+                    }
+                  }}
+                >
+                  {expanded[cabin.id]
+                    ? data.ui.galleryShowLess
+                    : `${data.ui.galleryShowAll} (${cabin.gallery.length})`}
+                </button>
+              </div>
+            ) : null}
           </div>
         ))}
       </div>

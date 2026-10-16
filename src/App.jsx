@@ -13,8 +13,11 @@ import { Seo } from './components/Seo'
 import { Services } from './components/Services'
 import { WhatsAppButton } from './components/WhatsAppButton'
 import { siteData } from './data/siteData'
+import { useReveal } from './hooks/useReveal'
 
 function App() {
+  useReveal()
+
   return (
     <>
       <Seo data={siteData} />

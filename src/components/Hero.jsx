@@ -6,7 +6,6 @@ export function Hero({ data }) {
       <ImageWithFallback src={data.hero.image} alt={data.hero.alt} className="hero-media" />
       <div className="hero-overlay" />
       <div className="hero-content section-shell">
-        <p className="eyebrow">{data.name}</p>
         <h1>{data.title}</h1>
         <p className="hero-subtitle">{data.subtitle}</p>
         <div className="hero-actions">

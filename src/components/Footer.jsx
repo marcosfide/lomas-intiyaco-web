@@ -1,4 +1,4 @@
-import logoWhite from '../assets/images/logo-intiyaco-white.png'
+import logoWhite from '../assets/images/logo-lomas-intiyaco-white.svg'
 
 function WhatsAppIcon() {
   return (
@@ -40,8 +40,22 @@ export function Footer({ data }) {
         <div>
           <img className="footer-logo" src={logoWhite} alt={data.name} />
           <p>{data.location.text}</p>
+          <p className="footer-hours">
+            {data.ui.checkinLabel} {data.schema.checkinTime} · {data.ui.checkoutLabel} {data.schema.checkoutTime}
+          </p>
         </div>
+        <nav className="footer-nav-wrap" aria-label={data.ui.footerNavTitle}>
+          <p className="footer-heading">{data.ui.footerNavTitle}</p>
+          <div className="footer-nav">
+            {data.nav.map((item) => (
+              <a key={item.href} href={item.href}>
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </nav>
         <div className="footer-links">
+          <p className="footer-heading">{data.ui.footerContactTitle}</p>
           <a className="footer-contact-link" href={data.whatsapp.url} target="_blank" rel="noreferrer">
             <WhatsAppIcon />
             <span>WhatsApp {data.whatsapp.number}</span>
