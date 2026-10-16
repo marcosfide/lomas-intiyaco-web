@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.lomasdeintiyaco.com.ar/sitemap.xml
+Sitemap: https://lomas-intiyaco-cabanas.vercel.app/sitemap.xml

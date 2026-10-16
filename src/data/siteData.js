@@ -34,7 +34,7 @@ import cabana2Vista from '../assets/images/cabana2/cabana2-vista.webp'
 
 const whatsappMessage = 'Hola, quería consultar disponibilidad en Lomas de Intiyaco.'
 
-const canonicalUrl = 'https://www.lomasdeintiyaco.com.ar/'
+const canonicalUrl = 'https://lomas-intiyaco-cabanas.vercel.app/'
 const heroImage = cabana1Exterior1
 
 export const siteData = {
@@ -52,7 +52,7 @@ export const siteData = {
     'alojamiento en Intiyaco, Córdoba',
   ],
   canonicalUrl,
-  domain: 'www.lomasdeintiyaco.com.ar',
+  domain: 'lomas-intiyaco-cabanas.vercel.app',
   whatsapp: {
     number: '+5491153867487',
     displayNumber: '+54 9 11 5386-7487',
