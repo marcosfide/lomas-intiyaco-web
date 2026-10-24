@@ -9,7 +9,7 @@ export function Hero({ data }) {
         <h1>{data.title}</h1>
         <p className="hero-subtitle">{data.subtitle}</p>
         <div className="hero-actions">
-          <a className="btn btn-primary" href={data.whatsapp.url} target="_blank" rel="noreferrer">
+          <a className="btn btn-primary" href="#contacto">
             {data.ui.heroPrimary}
           </a>
           <a className="btn btn-secondary" href="#cabanas">

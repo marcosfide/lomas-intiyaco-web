@@ -8,7 +8,7 @@ import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { Intro } from './components/Intro'
 import { Location } from './components/Location'
-import { ScenicBreak } from './components/ScenicBreak'
+import { Reviews } from './components/Reviews'
 import { Seo } from './components/Seo'
 import { Services } from './components/Services'
 import { WhatsAppButton } from './components/WhatsAppButton'
@@ -25,7 +25,7 @@ function App() {
       <main>
         <Hero data={siteData} />
         <Intro data={siteData} />
-        <ScenicBreak data={siteData} />
+        <Reviews data={siteData} />
         <Cabins data={siteData} />
         <Services data={siteData} />
         <Gallery data={siteData} />

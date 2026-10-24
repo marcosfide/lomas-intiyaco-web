@@ -10,8 +10,10 @@ const SELECTOR = [
   '.gallery-grid',
   '.location-grid > *',
   '.faq-list details',
-  '.scenic-content',
+  '.reviews-content',
   '.final-cta-content',
+  '.availability-card',
+  '.review-card',
 ].join(',')
 
 // Fades elements in as they enter the viewport. Skipped for reduced motion.

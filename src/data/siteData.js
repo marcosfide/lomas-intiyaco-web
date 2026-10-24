@@ -97,6 +97,7 @@ export const siteData = {
     cabinsEyebrow: 'Nuestras cabañas',
     cabinsTitle: 'Cabañas equipadas para parejas, familias y grupos',
     cabinButton: 'Ver galería',
+    cabinAvailability: 'Consultar disponibilidad',
     servicesEyebrow: 'Servicios',
     servicesTitle: 'Comodidades para una estadía simple y tranquila',
     galleryEyebrow: 'Galería',
@@ -109,6 +110,14 @@ export const siteData = {
     faqEyebrow: 'Preguntas frecuentes',
     faqTitle: 'Información útil antes de consultar',
     finalButton: 'Consultar por WhatsApp',
+    finalDirect: '¿Preferís escribirnos directo? Abrí WhatsApp',
+    reviewsEyebrow: 'Reseñas en Google',
+    reviewsTitle: 'Lo que cuentan quienes ya vinieron',
+    reviewsWrite: 'Dejanos tu reseña',
+    reviewsText:
+      '¿Ya nos visitaste? Nos ayuda mucho que cuentes cómo la pasaste.',
+    reviewsRead: 'Ver reseñas en Google',
+    footerReview: 'Dejanos tu reseña en Google',
     whatsappAria: 'Consultar disponibilidad por WhatsApp',
     copyright: 'Todos los derechos reservados.',
     footerNavTitle: 'Navegación',
@@ -118,6 +127,7 @@ export const siteData = {
   },
   nav: [
     { label: 'Inicio', href: '#inicio' },
+    { label: 'Reseñas', href: '#resenas' },
     { label: 'Cabañas', href: '#cabanas' },
     { label: 'Servicios', href: '#servicios' },
     { label: 'Galería', href: '#galeria' },
@@ -318,6 +328,35 @@ export const siteData = {
     imageAlt: 'Atardecer sobre las sierras visto desde las cabañas en Intiyaco, Córdoba',
   },
   galleryPreviewCount: 6,
+  availability: {
+    title: 'Armá tu consulta',
+    button: 'Consultar por WhatsApp',
+    note: 'No es una reserva: te confirmamos disponibilidad por WhatsApp.',
+    options: [
+      {
+        id: 'cabana-1',
+        label: 'Cabaña 4/5 personas',
+        note: 'Familias o grupos',
+        messageLabel: 'Cabaña para 4/5 personas',
+        maxGuests: 5,
+      },
+      {
+        id: 'cabana-2',
+        label: 'Cabaña 2/3 personas',
+        note: 'Parejas',
+        messageLabel: 'Cabaña para 2/3 personas',
+        maxGuests: 3,
+      },
+    ],
+  },
+  reviews: {
+    rating: '5,0',
+    count: 7,
+    writeUrl: 'https://search.google.com/local/writereview?placeid=ChIJhyV2NPPJ0pURAc_rbdKIlUk',
+    readUrl: 'https://search.google.com/local/reviews?placeid=ChIJhyV2NPPJ0pURAc_rbdKIlUk',
+    // Copiar acá reseñas reales de Google (texto tal cual, nombre como figura en Google).
+    items: [],
+  },
   services: [
     { icon: 'kitchen', title: 'Cocina equipada', note: 'Para resolver comidas con comodidad durante la estadía.' },
     { icon: 'grill', title: 'Parrilla', note: 'Espacio para cocinar y compartir al aire libre.' },
@@ -370,9 +409,10 @@ export const siteData = {
     },
   ],
   finalCta: {
+    eyebrow: 'Consultá disponibilidad',
     title: '¿Querés descansar en las sierras?',
     text:
-      'Escribinos por WhatsApp y contanos las fechas de tu viaje. Te ayudamos a encontrar la cabaña adecuada para tu escapada a Intiyaco.',
+      'Elegí la cabaña y las fechas de tu viaje, y te llega la consulta armada por WhatsApp. Te respondemos con la disponibilidad y los pasos para reservar.',
     image: cabana1ExteriorNoche,
     imageAlt: 'Cabaña iluminada de noche entre los pinos en Intiyaco, Córdoba',
   },

@@ -33,6 +33,17 @@ function MapIcon() {
   )
 }
 
+function StarIcon() {
+  return (
+    <svg className="footer-contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path
+        fill="currentColor"
+        d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4L2.8 9.5l6.4-.8L12 2.8Z"
+      />
+    </svg>
+  )
+}
+
 export function Footer({ data }) {
   return (
     <footer className="site-footer">
@@ -67,6 +78,10 @@ export function Footer({ data }) {
           <a className="footer-contact-link" href={data.links.googleMaps} target="_blank" rel="noreferrer">
             <MapIcon />
             <span>Google Maps</span>
+          </a>
+          <a className="footer-contact-link" href={data.reviews.writeUrl} target="_blank" rel="noreferrer">
+            <StarIcon />
+            <span>{data.ui.footerReview}</span>
           </a>
         </div>
         <p className="copyright">Copyright {new Date().getFullYear()} {data.name}. {data.ui.copyright}</p>

@@ -3,8 +3,8 @@
   --forest-strong: #173428;
   --moss: #6e7e50;
   --clay: #b9653b;
-  --stone: #eee9df;
-  --cream: #fbf8f1;
+  --stone: #f0e6d6;
+  --cream: #faf4ea;
   --paper: #ffffff;
   --charcoal: #23251f;
   --muted: #6d7067;
@@ -35,7 +35,7 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    linear-gradient(180deg, rgba(251, 248, 241, 0.94), rgba(251, 248, 241, 1)),
+    linear-gradient(180deg, rgba(250, 244, 234, 0.94), rgba(250, 244, 234, 1)),
     radial-gradient(circle at 20% 0%, rgba(185, 101, 59, 0.12), transparent 34%);
 }
 

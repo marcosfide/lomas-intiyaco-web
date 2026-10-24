@@ -1,4 +1,6 @@
+import { SELECT_CABIN_EVENT } from '../events'
 import { ImageWithFallback } from './ImageWithFallback'
+
 
 export function Cabins({ data }) {
   return (
@@ -10,13 +12,10 @@ export function Cabins({ data }) {
         </div>
         <div className="cabins-grid">
           {data.cabins.map((cabin) => (
-            <a
-              className="cabin-card cabin-card-link"
-              href={cabin.galleryAnchor}
-              key={cabin.id}
-              aria-label={`Ver galería de ${cabin.title}`}
-            >
-              <ImageWithFallback src={cabin.image} alt={cabin.alt} className="cabin-image" />
+            <article className="cabin-card" key={cabin.id}>
+              <a className="cabin-image-link" href={cabin.galleryAnchor} aria-label={`Ver galería de ${cabin.title}`}>
+                <ImageWithFallback src={cabin.image} alt={cabin.alt} className="cabin-image" />
+              </a>
               <div className="cabin-body">
                 <p className="capacity">{cabin.capacity}</p>
                 <h3>{cabin.title}</h3>
@@ -26,11 +25,20 @@ export function Cabins({ data }) {
                     <li key={amenity}>{amenity}</li>
                   ))}
                 </ul>
-                <span className="btn btn-primary cabin-card-cta" aria-hidden="true">
-                  {data.ui.cabinButton}
-                </span>
+                <div className="cabin-actions">
+                  <a
+                    className="btn btn-primary"
+                    href="#contacto"
+                    onClick={() => window.dispatchEvent(new CustomEvent(SELECT_CABIN_EVENT, { detail: cabin.id }))}
+                  >
+                    {data.ui.cabinAvailability}
+                  </a>
+                  <a className="btn btn-outline" href={cabin.galleryAnchor}>
+                    {data.ui.cabinButton}
+                  </a>
+                </div>
               </div>
-            </a>
+            </article>
           ))}
         </div>
       </div>
